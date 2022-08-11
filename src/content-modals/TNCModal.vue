@@ -32,7 +32,7 @@
       sponsors. The Competition aims to bring together people of multiple disciplines to challenge them to solve
       imminent problems of the future via interdisciplinary collaborations.
       <br />
-      <br />b. The Competition will be held at SUTD from 18th September 2021 to 19th September 2021 (24 hours).
+      <br />b. The Competition will be held at SUTD from 18th September 2022 to 19th September 2022 (24 hours).
       <br />
       <br />c. Participants who are students at SUTD will be allowed to go to SUTD campus for the Competition, with
       proper safety measures in place.
@@ -43,7 +43,7 @@
     <h4>3. Eligibility and Teams</h4>
     <Para>
       a. This Competition is open to Participants of all nationalities who are at least 13 years old (as of 18th
-      September 2021).
+      September 2022).
       <br />
       <br />b. The Participants may compete in teams of 3 to 5 members.
       <br />

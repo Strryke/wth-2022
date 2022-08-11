@@ -1,5 +1,5 @@
 <template>
-  <section id="about" title="About What The Hack 2021">
+  <section id="about" title="About What The Hack 2022">
     <SectionHeader>What The Hack?</SectionHeader>
     <div class="about-content">
       <div class="about-content-main">
@@ -14,7 +14,7 @@
           <span>Transportation</span>. Participants will have to tackle an issue from within one of these problem
           domains using solutions that fall under at least one of these four technological categories -
           <span>Software Platforms</span>, <span> Internet of Things </span>, <span>Artificial Intelligence</span> and
-          <span>Computational Fabrication</span>. Due to the current COVID-19 situation, What The Hack 2021 will be held
+          <span>Computational Fabrication</span>. Due to the current COVID-19 situation, What The Hack 2022 will be held
           virtually!
         </Para>
       </div>

@@ -9,7 +9,7 @@
     <h1>What The Hack: Environment</h1>
     <div class="hero-content-secondary">
       <div>
-        <h2>18th - 19th September 2021</h2>
+        <h2>18th - 19th September 2022</h2>
         <h2>Singapore University of Technology and Design</h2>
       </div>
       <a href="https://sutdwth21.devpost.com/project-gallery" class="register-button">View Submissions</a>

@@ -26,13 +26,13 @@
         </svg>
         <div>
           Email:&nbsp;
-          <a href="mailto:whatthehack2021@sutdapac.onmicrosoft.com" style="color: var(--color-accent);"
-            >whatthehack2021@sutdapac.onmicrosoft.com</a
+          <a href="mailto:whatthehack2022@sutdapac.onmicrosoft.com" style="color: var(--color-accent);"
+            >whatthehack2022@sutdapac.onmicrosoft.com</a
           >
         </div>
       </div>
       <div id="footer-bottom">
-        <div>Copyright © 2021 What The Hack. All rights reserved.</div>
+        <div>Copyright © 2022 What The Hack. All rights reserved.</div>
         <ul>
           <li>
             <button
@@ -60,7 +60,7 @@
           </li>
           <li class="li-dividers" aria-hidden="true">|</li>
           <li>
-            <a href="https://github.com/wthdevelopers/website-2021" target="_blank" rel="noopener noreferrer"
+            <a href="https://github.com/wthdevelopers/website-2022" target="_blank" rel="noopener noreferrer"
               >Source Code</a
             >
           </li>

@@ -1,4 +1,4 @@
-# What The Hack 2021
+# What The Hack 2022
 
 ## Project setup
 
@@ -33,4 +33,4 @@ npm run lint
 ### Customize configuration
 
 See [Configuration Reference](https://cli.vuejs.org/config/).
-#WTH2021
+#WTH2022
