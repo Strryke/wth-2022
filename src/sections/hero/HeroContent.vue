@@ -6,14 +6,15 @@
         <CloudIcon />
       </div>
     </div>
-    <h1>What The Hack: Environment</h1>
+    <h1>What The Hack: Futuristic Technology</h1>
     <div class="hero-content-secondary">
       <div>
-        <h2>18th - 19th September 2022</h2>
+        <h2>19th - 20th December 2022</h2>
         <h2>Singapore University of Technology and Design</h2>
       </div>
-      <a href="https://sutdwth21.devpost.com/project-gallery" class="register-button">View Submissions</a>
     </div>
+    <button class="cta-button" role="button">Sign Up Now!</button>
+
     <RegistrationGuideModal />
   </div>
 </template>
@@ -35,6 +36,52 @@ export default {
 </script>
 
 <style scoped>
+/* CSS */
+.cta-button {
+  align-items: center;
+  background-color: var(--color-title-text);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: var(--color-cta-text);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui, -apple-system, system-ui, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 30px auto;
+  min-height: 3rem;
+  padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: fit-content;
+}
+
+.cta-button:hover,
+.cta-button:focus {
+  border-color: var(--color-accent);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.cta-button:hover {
+  transform: translateY(-1px);
+}
+
+.cta-button:active {
+  background-color: #f0f0f1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  transform: translateY(0);
+}
+
 .hero-content {
   position: relative;
   height: 87.5%;
@@ -61,17 +108,17 @@ export default {
 
 .hero-content h1 {
   font-family: var(--font-secondary), sans-serif;
-  font-size: calc(3vw + 14px);
+  font-size: calc(2vw + 14px);
   font-weight: 900;
   color: var(--color-title-text);
-  margin-left: 30vw;
+  margin: 0 auto;
   margin-bottom: 8px;
   transition: color 0.6s ease-out;
 }
 
 .hero-content-secondary {
   display: flex;
-  margin-left: 30vw;
+  margin: 0 auto;
 }
 
 .hero-content h2 {
@@ -83,7 +130,7 @@ export default {
 }
 
 .register-button {
-  display: block;
+  display: flex;
   align-items: center;
   margin-left: 20px;
   text-decoration: none;
@@ -96,6 +143,8 @@ export default {
   height: fit-content;
   transition: background-color 0.6s ease-out, color 0.6s ease-out;
   line-height: 1;
+  margin-top: 20px;
+  text-align: center;
 }
 
 .register-button.register-button-disabled {
@@ -106,6 +155,7 @@ export default {
 .caution-button {
   display: inline-flex;
   align-items: center;
+  text-align: center;
   margin-left: 20px;
   text-decoration: none;
   font-size: 24px;
@@ -135,12 +185,10 @@ export default {
   .register-button {
     width: fit-content;
     margin-top: 30px;
-    margin-left: 110px;
   }
 
   .caution-button {
     margin-top: 30px;
-    margin-left: 110px;
   }
 
   .cloud-icon-wrapper {
@@ -156,14 +204,6 @@ export default {
   .hero-content > .icon-wrapper {
     width: 80vw;
     margin-left: 8vw;
-  }
-
-  .hero-content > h1 {
-    margin-left: 22vw;
-  }
-
-  .hero-content-secondary {
-    margin-left: 22vw;
   }
 
   .register-button {

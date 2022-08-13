@@ -9,13 +9,15 @@
         </Para>
         <Para>
           This year’s theme is
-          <span>Environment</span>, of which there will be four problem themes related to this overarching theme -
-          <span>Built Environment</span>, <span>Waste Management</span>, <span>Natural Environment</span> and
-          <span>Transportation</span>. Participants will have to tackle an issue from within one of these problem
-          domains using solutions that fall under at least one of these four technological categories -
-          <span>Software Platforms</span>, <span> Internet of Things </span>, <span>Artificial Intelligence</span> and
-          <span>Computational Fabrication</span>. Due to the current COVID-19 situation, What The Hack 2022 will be held
-          virtually!
+          <span>Futuristic Technology</span>, of which there will be three problem themes related to this overarching
+          theme - <span>Sustainable & Smart Cities</span>, <span>Healthcare & Accessibility Technology</span> and
+          <span>Social Interaction & Games</span>.
+        </Para>
+        <Para>
+          With the above problems as foes, participants will have to find innovative solutions that fall into at least
+          one of the four following categories — <span>Platforms and Applications</span>,
+          <span>Internet of Things</span>, <span>Data Science / Artificial Intelligence</span> and
+          <span>Mechanical Design / Digital Fabrication / Robotics</span>.
         </Para>
       </div>
       <div class="about-content-aside">
