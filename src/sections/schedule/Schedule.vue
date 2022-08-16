@@ -4,7 +4,7 @@
     <div class="schedule-content">
       <ul class="timetable">
         <li>
-          <SubHeader>Day One (Monday)</SubHeader>
+          <SubHeader>Day One (Mon)</SubHeader>
         </li>
         <li>
           <Para>Registration</Para>
@@ -26,7 +26,7 @@
 
       <ul class="timetable">
         <li>
-          <SubHeader>Day Two (Tuesday)</SubHeader>
+          <SubHeader>Day Two (Tues)</SubHeader>
         </li>
         <li>
           <Para>Hacking Ends</Para>

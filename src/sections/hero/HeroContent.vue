@@ -2,15 +2,11 @@
   <div class="hero-content">
     <div class="icon-wrapper">
       <WTHIcon />
-      <div class="cloud-icon-wrapper">
-        <CloudIcon />
-      </div>
     </div>
-    <h1>What The Hack: Futuristic Technology</h1>
+    <h1>Futuristic Technology</h1>
     <div class="hero-content-secondary">
       <div>
-        <h2>19th - 20th December 2022</h2>
-        <h2>Singapore University of Technology and Design</h2>
+        <h2>19th - 20th December 2022 @ SUTD</h2>
       </div>
     </div>
     <button class="cta-button" role="button">Sign Up Now!</button>
@@ -29,7 +25,6 @@ export default {
   components: {
     RegistrationGuideModal: () => import(/* webpackPrefetch: true */ '@/content-modals/RegistrationGuideModal'),
     WTHIcon,
-    CloudIcon,
   },
   mixins: [openModalMixin],
 };
@@ -91,10 +86,8 @@ export default {
 }
 
 .hero-content > .icon-wrapper {
-  width: calc(400px + 28vw);
-  margin-left: 12vw;
-  margin-bottom: 20px;
-  position: relative;
+  width: calc(400px + 30vw);
+  margin: 0 auto;
 }
 
 .cloud-icon-wrapper {

@@ -29,7 +29,6 @@ p {
 }
 
 span {
-  display: inline-block;
   line-height: 0.4;
   color: var(--color-accent);
   font-weight: bold;
