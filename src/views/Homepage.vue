@@ -1,6 +1,7 @@
 <template>
   <div id="homepage">
     <Hero />
+    <USP />
     <Carousel />
     <About />
     <Prizes />
@@ -25,6 +26,7 @@ import Faq from '@/sections/faq/Faq.vue';
 import Contact from '@/sections/contact/Contact.vue';
 import Foot from '@/sections/foot/Foot.vue';
 import Backdrop from '@/components/Backdrop.vue';
+import USP from '@/sections/about/USP.vue';
 // import Workshops from '@/sections/workshops/Workshops.vue';
 
 export default {
@@ -40,7 +42,7 @@ export default {
     Contact,
     Foot,
     Backdrop,
-    // Workshops,
+    USP,
   },
 };
 </script>

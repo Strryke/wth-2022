@@ -48,7 +48,7 @@ export default {
 .prizes-body {
   background-color: var(--slope-body-color);
   width: 100%;
-  padding-top: 50px;
+  padding: 50px 0;
   transform: translateY(-1px);
   transition: background-color 0.6s ease-out;
 }

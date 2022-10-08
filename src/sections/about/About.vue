@@ -4,8 +4,9 @@
     <div class="about-content">
       <div class="about-content-main">
         <Para>
-          What The Hack is SUTD's annual hackathon that aims to bring together people of various disciplines and provide
-          them with a platform to find innovative solutions to meaningful real-world problems.
+          SUTD's premier hackathon returns for its 4th iteration! What The Hack is a hardware and software
+          <span>hackathon</span>, where engineers, creators and designers collaborate to make innovative solutions to
+          meaningful real-world problems. <span>All in 2 days.</span>
         </Para>
         <Para>
           This year’s theme is
@@ -13,12 +14,12 @@
           theme - <span>Sustainable & Smart Cities</span>, <span>Healthcare & Accessibility Technology</span> and
           <span>Social Interaction & Games</span>.
         </Para>
-        <Para>
+        <!-- <Para>
           With the above problems as foes, participants will have to find innovative solutions that fall into at least
           one of the four following categories — <span>Platforms and Applications</span>,
           <span>Internet of Things</span>, <span>Data Science / Artificial Intelligence</span> and
           <span>Mechanical Design / Digital Fabrication / Robotics</span>.
-        </Para>
+        </Para> -->
       </div>
       <div class="about-content-aside">
         <div class="aside-block">
@@ -26,8 +27,8 @@
           <div class="aside-refer">Pax / Group</div>
         </div>
         <div class="aside-block">
-          <div class="aside-number">24</div>
-          <div class="aside-refer">Hours</div>
+          <div class="aside-number">2</div>
+          <div class="aside-refer">Days</div>
         </div>
         <div class="aside-block">
           <div class="aside-number">Lots</div>

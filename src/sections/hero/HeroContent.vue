@@ -226,7 +226,7 @@ export default {
 
   .hero-content-secondary {
     margin-top: 30px;
-    margin-left: 0;
+    /* margin-left: 0; */
     text-align: center;
     padding: 0 30px;
   }
