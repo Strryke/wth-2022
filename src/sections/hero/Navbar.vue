@@ -27,7 +27,7 @@
           Prizes
         </button>
       </li>
-      <li>
+      <!-- <li>
         <button
           @click="
             buttonOnClickScroll('workshops');
@@ -36,7 +36,7 @@
         >
           Workshops
         </button>
-      </li>
+      </li> -->
       <li>
         <button
           @click="
@@ -78,7 +78,7 @@
         </button>
       </li>
       <li>
-        <button @click="toggleTheme">
+        <!-- <button @click="toggleTheme">
           <span class="sr-only">Toggle light or dark mode</span>
           <svg
             v-if="theme === 'light'"
@@ -135,12 +135,12 @@
               transform="translate(0.01 0)"
             ></path>
           </svg>
-        </button>
+        </button> -->
       </li>
     </ul>
     <ul id="cutout">
       <li>
-        <button @click="toggleTheme">
+        <!-- <button @click="toggleTheme">
           <span class="sr-only">Toggle light or dark mode</span>
           <svg
             v-if="theme === 'light'"
@@ -197,7 +197,7 @@
               transform="translate(0.01 0)"
             ></path>
           </svg>
-        </button>
+        </button> -->
       </li>
       <li>
         <button @click="openDrawer">
@@ -247,7 +247,7 @@
             Prizes
           </button>
         </li>
-        <li>
+        <!-- <li>
           <button
             @click="
               buttonOnClickScroll('workshops');
@@ -256,7 +256,7 @@
           >
             Workshops
           </button>
-        </li>
+        </li> -->
         <li>
           <button
             @click="

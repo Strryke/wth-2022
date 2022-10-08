@@ -4,9 +4,8 @@
       <SectionHeader>Prizes</SectionHeader>
       <div class="prizes-content">
         <Para style="text-align: center; margin: 50px 0 70px 0"
-          >Each of the 3 categories (Sustainable and Smart Cities, Healthcare and Accessibility Technology, and Social
-          Interaction and Games) will have a starting prize pool of $500 and will scale up based on the number of people
-          / sponsors. Stay tuned for updates.</Para
+          >Each of the 3 categories will have a starting prize pool of $500 and will scale up based on the number of
+          people / sponsors. Stay tuned for updates.</Para
         >
         <ul>
           <li class="category" v-for="category in categories" :key="category.name">
@@ -34,10 +33,10 @@ export default {
   data() {
     return {
       categories: [
-        { name: 'Sustainable and Smart Cities' },
-        { name: 'Healthcare and Accessibility Technology' },
+        { name: 'Sustainable & Smart Cities' },
+        { name: 'Healthcare & Accessibility' },
         {
-          name: 'Social Interaction and Games',
+          name: 'Social Interaction & Games',
         },
       ],
     };
