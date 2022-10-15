@@ -1,4 +1,5 @@
 # What The Hack 2021
+2021.sutdwth.com
 
 ## Project setup
 
