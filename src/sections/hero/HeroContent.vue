@@ -206,7 +206,6 @@ export default {
   .hero-content > h1 {
     margin-top: 30px;
     font-size: calc(3vw + 24px);
-    margin-left: 0;
     text-align: center;
     padding: 0 30px;
     line-height: 1;
