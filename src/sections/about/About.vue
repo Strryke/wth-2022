@@ -248,11 +248,11 @@ export default {
   padding-top: 30px;
   padding-bottom: 180px;
   background: url(../../../public/images/slide2.jpeg) no-repeat bottom center;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
-  background-color: var(--color-background-3);
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  background-color: #dff1ff;
 }
 
 .about-content {

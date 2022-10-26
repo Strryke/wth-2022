@@ -155,7 +155,7 @@ export default {
 }
 
 .slope-container {
-  background-color: var(--color-background-3);
+  background-color: #dff1ff;
   margin-bottom: -2px;
 }
 

@@ -83,10 +83,10 @@ export default {
   flex-direction: column;
   justify-content: center;
   background: url(../../../public/images/slide1.jpg) no-repeat bottom center;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
   background-color: var(--color-background-1);
 }
 
