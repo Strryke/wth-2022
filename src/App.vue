@@ -83,7 +83,7 @@ export default Vue.extend({
   --displayed-during-dark: none;
 }
 
-[theme='dark'] {
+/* [theme='dark'] {
   --color-background: #191f4d;
   --color-title-text: #f3f3fb;
   --color-title-text-hover: #d9d9f2;
@@ -107,7 +107,7 @@ export default Vue.extend({
 
   --displayed-during-light: none;
   --displayed-during-dark: inline;
-}
+} */
 
 @custom-media --mobile-narrow (max-width: 570px);
 @custom-media --mobile-wide (max-width: 847px);
