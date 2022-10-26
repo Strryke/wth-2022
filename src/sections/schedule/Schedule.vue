@@ -50,7 +50,7 @@
         </li>
       </ul>
     </div>
-    <svg xmlns="http://www.w3.org/2000/svg" id="windmillscape" viewBox="0 0 3093.3 1269.5">
+    <!-- <svg xmlns="http://www.w3.org/2000/svg" id="windmillscape" viewBox="0 0 3093.3 1269.5">
       <g class="base">
         <path
           fill="#79c89f"
@@ -259,7 +259,7 @@
           d="M2564 399a36 36 0 0011-6 20 20 0 006-9 59 59 0 003-9l1-7v2a113 113 0 004 15l1 2a11 11 0 004 5 51 51 0 008 5l4 2-3 2a39 39 0 00-9 6 16 16 0 00-3 3 23 23 0 00-3 5 92 92 0 00-2 11l-1 5a4 4 0 000-1 143 143 0 00-4-14l-2-5a13 13 0 00-4-6 36 36 0 00-8-4l-3-2zM1057 666h1a36 36 0 0011-6 20 20 0 006-9 59 59 0 002-10l1-6 1 2a113 113 0 004 15l1 2a11 11 0 003 4 51 51 0 008 6l4 2-3 1a39 39 0 00-9 6 16 16 0 00-3 4 23 23 0 00-2 5 92 92 0 00-3 11l-1 5a4 4 0 000-1 143 143 0 00-3-14l-2-6a13 13 0 00-4-5 36 36 0 00-8-5l-3-1h-1z"
         ></path>
       </g>
-    </svg>
+    </svg> -->
   </section>
 </template>
 
@@ -286,6 +286,12 @@ export default {
   position: relative;
   padding-top: 30px;
   padding-bottom: 200px;
+  background: url(../../../public/images/slide3.jpeg) no-repeat bottom center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  background-color: var(--color-background-3);
 }
 
 #windmillscape {

@@ -18,10 +18,10 @@ h4 {
   font-size: 32px;
   font-family: var(--font-secondary), sans-serif;
   color: var(--color-regular-text);
-
-  border-bottom: 10px solid var(--color-subheader-text);
+  /* border-bottom: 10px solid var(--color-subheader-text); */
   display: inline-block;
-  line-height: 0.4;
+  box-sizing: border-box;
+  box-shadow: 0px 10px 0px -1px var(--color-subheader-text);
 }
 
 @media (--mobile-narrow) {

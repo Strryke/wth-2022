@@ -3,7 +3,7 @@
     <div class="icon-wrapper">
       <WTHIcon />
     </div>
-    <h1>Futuristic Technology</h1>
+    <h1>A Brighter Future</h1>
     <div class="hero-content-secondary">
       <div>
         <h2>19th - 20th December 2022 @ SUTD</h2>
@@ -66,15 +66,14 @@ export default {
   box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
 }
 
-.cta-button:hover {
+/* .cta-button:hover {
   transform: translateY(-1px);
-}
+} */
 
 .cta-button:active {
   background-color: #f0f0f1;
   border-color: rgba(0, 0, 0, 0.15);
   box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
-  transform: translateY(0);
 }
 
 .hero-content {
@@ -83,13 +82,18 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background: url(../../../public/images/slide1.jpg) no-repeat bottom center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  background-color: var(--color-background-1);
 }
 
 .hero-content > .icon-wrapper {
   width: calc(400px + 30vw);
   margin: 0 auto;
 }
-
 .cloud-icon-wrapper {
   position: absolute;
   top: 0;
@@ -98,7 +102,6 @@ export default {
   width: 23vw;
   max-width: 300px;
 }
-
 .hero-content h1 {
   font-family: var(--font-secondary), sans-serif;
   font-size: calc(2vw + 14px);
@@ -108,12 +111,10 @@ export default {
   margin-bottom: 8px;
   transition: color 0.6s ease-out;
 }
-
 .hero-content-secondary {
   display: flex;
   margin: 0 auto;
 }
-
 .hero-content h2 {
   font-family: var(--font-primary), sans-serif;
   font-size: calc(1vw + 10px);
@@ -139,12 +140,10 @@ export default {
   margin-top: 20px;
   text-align: center;
 }
-
 .register-button.register-button-disabled {
   cursor: not-allowed;
   background-color: var(--color-gray);
 }
-
 .caution-button {
   display: inline-flex;
   align-items: center;
@@ -162,59 +161,48 @@ export default {
   transition: background-color 0.6s ease-out, color 0.6s ease-out;
   line-height: 0px;
 }
-
 @media (max-width: 1180px) {
   .caution-button {
     padding: 32px 31px;
   }
 }
-
 @media (--desktop-narrow) {
   .hero-content-secondary {
     display: flex;
     flex-direction: column;
   }
-
   .register-button {
     width: fit-content;
     margin-top: 30px;
   }
-
   .caution-button {
     margin-top: 30px;
   }
-
   .cloud-icon-wrapper {
     display: none;
   }
 }
-
 @media (--mobile-wide) {
   .hero-content > * {
     transform: translateY(-10vh);
   }
-
   .hero-content > .icon-wrapper {
     width: 80vw;
     margin-left: 8vw;
   }
-
   .register-button {
     font-size: 22px;
     padding: 18px 36px;
   }
-
   .caution-button {
     font-size: 22px;
     padding: 28px 35px;
     width: 240px;
   }
 }
-
 @media (--mobile-narrow) {
   .hero-content > svg {
   }
-
   .hero-content > h1 {
     margin-top: 30px;
     font-size: calc(3vw + 24px);
@@ -223,25 +211,21 @@ export default {
     padding: 0 30px;
     line-height: 1;
   }
-
   .hero-content-secondary {
     margin-top: 30px;
     /* margin-left: 0; */
     text-align: center;
     padding: 0 30px;
   }
-
   .hero-content h2 {
     font-size: 16px;
   }
-
   .register-button {
     font-size: 16px;
     padding: 14px 28px;
     margin-left: auto;
     margin-right: auto;
   }
-
   .caution-button {
     font-size: 16px;
     padding: 22px 30px;

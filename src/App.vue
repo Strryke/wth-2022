@@ -55,8 +55,10 @@ export default Vue.extend({
 :root {
   --font-primary: 'Brandon Grotesque';
   --font-secondary: 'Nunito';
-
   --color-background: #feffe0;
+  --color-background-1: #feffe0;
+  --color-background-2: #d9f344;
+  --color-background-3: #e7f5fe;
   --color-title-text: #5360c6;
   --color-title-text-hover: #3947ac;
   --color-cta-text: #f3f3fb;
@@ -67,7 +69,7 @@ export default Vue.extend({
   --color-gray: #788ebf;
   --color-caution-text: #f3f3fb;
 
-  --slope-body-color: #cae9c6;
+  --slope-body-color: #d9f344;
 
   --stars-visibility: hidden;
 

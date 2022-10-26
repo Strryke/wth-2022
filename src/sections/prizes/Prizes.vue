@@ -3,14 +3,14 @@
     <div class="prizes-body">
       <SectionHeader>Prizes</SectionHeader>
       <div class="prizes-content">
-        <Para style="text-align: center; margin: 50px 0 70px 0"
+        <!-- <Para style="text-align: center; margin: 50px 0 70px 0"
           >Each of the 3 categories will have a starting prize pool of $500 and will scale up based on the number of
           people / sponsors. Stay tuned for updates.</Para
-        >
-        <ul>
+        > -->
+        <ul style="margin: 50px">
           <li class="category" v-for="category in categories" :key="category.name">
             <SubHeader style="align-self: center" class="prizes-subheader">{{ category.name }}</SubHeader>
-            <Para style="margin-top: 30px">$500 Cash Prize</Para>
+            <Para style="margin-top: 30px">2 x $800 Cash Prize</Para>
           </li>
         </ul>
       </div>
@@ -36,7 +36,7 @@ export default {
         { name: 'Sustainable & Smart Cities' },
         { name: 'Healthcare & Accessibility' },
         {
-          name: 'Social Interaction & Games',
+          name: 'Social Activities & Games',
         },
       ],
     };

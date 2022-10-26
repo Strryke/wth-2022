@@ -407,6 +407,7 @@ nav {
   top: 0;
   width: 100vw;
   z-index: 1000;
+  /* background-color: var(--color-background-1); */
 }
 
 nav li {

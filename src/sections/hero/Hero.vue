@@ -3,7 +3,7 @@
     <Navbar />
     <NavbarBlock />
     <HeroContent />
-    <HeroImage />
+    <!-- <HeroImage /> -->
   </vue100vh>
 </template>
 
@@ -21,7 +21,7 @@ export default {
     Navbar,
     NavbarBlock,
     HeroContent,
-    HeroImage,
+    // HeroImage,
   },
 };
 </script>

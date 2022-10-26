@@ -9,10 +9,16 @@
           <ul class="tier-sponsors">
             <li v-for="sponsor in tier.sponsors" :key="sponsor.name">
               <a v-if="sponsor.url" :href="sponsor.url" target="_blank" rel="noopener noreferrer">
-                <img
+                <!-- <img
                   :class="tier.name === 'Platinum' ? 'img-platinum' : tier.name === 'Gold' ? 'img-gold' : 'img-others'"
                   style="display: var(--displayed-during-light)"
                   :src="require(`../../../public/images/${sponsor.photoNormal}.png`)"
+                  :alt="`${sponsor.name} company logo`"
+                /> -->
+                <img
+                  :class="tier.name === 'Platinum' ? 'img-platinum' : tier.name === 'Gold' ? 'img-gold' : 'img-others'"
+                  style="display: var(--displayed-during-light)"
+                  :src="'https://www.kadencewp.com/wp-content/uploads/2020/10/alogo-2.png'"
                   :alt="`${sponsor.name} company logo`"
                 />
                 <img
@@ -23,12 +29,12 @@
                 />
               </a>
               <div v-else>
-                <img
+                <!-- <img
                   :class="tier.name === 'Platinum' ? 'img-platinum' : tier.name === 'Gold' ? 'img-gold' : 'img-others'"
                   style="display: var(--displayed-during-light)"
                   :src="require(`../../../public/images/${sponsor.photoNormal}.png`)"
                   :alt="`${sponsor.name} company logo`"
-                />
+                /> -->
                 <img
                   :class="tier.name === 'Platinum' ? 'img-platinum' : tier.name === 'Gold' ? 'img-gold' : 'img-others'"
                   style="display: var(--displayed-during-dark)"

@@ -10,9 +10,9 @@
         </Para>
         <Para>
           This year’s theme is
-          <span>Futuristic Technology</span>, of which there will be three problem themes related to this overarching
-          theme - <span>Sustainable & Smart Cities</span>, <span>Healthcare & Accessibility Technology</span> and
-          <span>Social Interaction & Games</span>.
+          <span>A Brighter Future</span>, of which there will be three problem themes related to this overarching theme
+          - <span>Sustainable & Smart Cities</span>, <span>Healthcare & Accessibility Technology</span> and
+          <span>Social Activities & Games</span>.
         </Para>
         <!-- <Para>
           With the above problems as foes, participants will have to find innovative solutions that fall into at least
@@ -37,7 +37,7 @@
       </div>
     </div>
 
-    <svg xmlns="http://www.w3.org/2000/svg" id="factoryscape" viewBox="0 0 3093.3 1185.5">
+    <!-- <svg xmlns="http://www.w3.org/2000/svg" id="factoryscape" viewBox="0 0 3093.3 1185.5">
       <g class="base">
         <path
           fill="#79c89f"
@@ -225,7 +225,7 @@
       <span class="s7"></span>
       <span class="s8"></span>
       <span class="s9"></span>
-    </div>
+    </div> -->
   </section>
 </template>
 
@@ -247,6 +247,12 @@ export default {
   position: relative;
   padding-top: 30px;
   padding-bottom: 180px;
+  background: url(../../../public/images/slide2.jpeg) no-repeat bottom center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  background-color: var(--color-background-3);
 }
 
 .about-content {

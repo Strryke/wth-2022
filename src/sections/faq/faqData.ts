@@ -97,24 +97,24 @@ export const faqData = [
       },
     ],
   },
-  {
-    title: 'Workshops',
-    content: [
-      {
-        id: 12,
-        title: 'When and where will the workshops be held?',
-        type: 'text',
-        content: `The workshops will be held on Zoom during the week leading to the hackathon (13th - 17th September).
-          After each workshop has concluded, we will upload the VODs on this website.`,
-      },
-      {
-        id: 13,
-        title: 'How do I sign up for the workshops?',
-        type: 'text',
-        content: `We will send the registration forms via email to those who indicated interest in attending the workshops.`,
-      },
-    ],
-  },
+  // {
+  //   title: 'Workshops',
+  //   content: [
+  //     {
+  //       id: 12,
+  //       title: 'When and where will the workshops be held?',
+  //       type: 'text',
+  //       content: `The workshops will be held on Zoom during the week leading to the hackathon (13th - 17th September).
+  //         After each workshop has concluded, we will upload the VODs on this website.`,
+  //     },
+  //     {
+  //       id: 13,
+  //       title: 'How do I sign up for the workshops?',
+  //       type: 'text',
+  //       content: `We will send the registration forms via email to those who indicated interest in attending the workshops.`,
+  //     },
+  //   ],
+  // },
   {
     title: 'Others',
     content: [

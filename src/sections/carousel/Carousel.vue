@@ -49,12 +49,14 @@
         </button>
       </div>
     </div>
-    <svg viewBox="0 0 1440 320" xmlns="http://www.w3.org/2000/svg" style="transform: translateY(-2px);">
-      <path
-        class="slope"
-        d="m0 0v278l22 9c22 10 65 29 109 29s87-19 131-35 87-29 131-22c43 6 87 31 131 44q65 19 131 0c43-13 87-38 130-47 44-10 88-4 131-13 44-10 88-35 131-26 44 10 88 54 131 80 44 26 87 32 131 9 44-22 87-73 109-98l22-26v-182z"
-      ></path>
-    </svg>
+    <div class="slope-container">
+      <svg viewBox="0 0 1440 320" xmlns="http://www.w3.org/2000/svg" style="transform: translateY(-2px);">
+        <path
+          class="slope"
+          d="m0 0v278l22 9c22 10 65 29 109 29s87-19 131-35 87-29 131-22c43 6 87 31 131 44q65 19 131 0c43-13 87-38 130-47 44-10 88-4 131-13 44-10 88-35 131-26 44 10 88 54 131 80 44 26 87 32 131 9 44-22 87-73 109-98l22-26v-182z"
+        ></path>
+      </svg>
+    </div>
   </section>
 </template>
 
@@ -146,10 +148,19 @@ export default {
 
 <style scoped>
 .carousel-body {
-  background-color: var(--slope-body-color);
+  background-color: var(--color-background-1);
   padding: 140px 150px 0 150px;
   transform: translateY(-1px);
   transition: background-color 0.6s ease-out;
+}
+
+.slope-container {
+  background-color: var(--color-background-3);
+  margin-bottom: -2px;
+}
+
+.slope {
+  fill: var(--color-background-1);
 }
 
 .carousel-content {

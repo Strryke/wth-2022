@@ -36,6 +36,7 @@
   grid-gap: 20px;
   margin: 0 auto;
   padding: 100px calc(10vw + 20px);
+  background-color: var(--color-background-2);
 }
 
 @media screen and (max-width: 768px) {
@@ -60,6 +61,7 @@
 .title {
   font-family: var(--font-primary);
   font-size: clamp(1rem, 2vw, 2rem);
+  color: var(--color-regular-text);
 }
 
 .subtitle {
