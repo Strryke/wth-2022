@@ -56,19 +56,19 @@ export default Vue.extend({
   --font-primary: 'Brandon Grotesque';
   --font-secondary: 'Nunito';
 
-  --color-background: #e9f7fb;
-  --color-title-text: #2d3887;
-  --color-title-text: #5360c6;
+  --color-background: #e8f3ff;
+  --color-title-text: #1173c8;
+  /* --color-title-text: #5360c6; */
   --color-title-text-hover: #3947ac;
   --color-cta-text: #f3f3fb;
-  --color-section-title-text: #e67fbe;
-  --color-regular-text: #5360c6;
-  --color-accent: #e67fbe;
+  --color-section-title-text: #a985ff;
+  --color-regular-text: #1173c8;
+  --color-accent: #a985ff;
   --color-subheader-text: rgba(230, 127, 190, 0.75);
   --color-gray: #788ebf;
   --color-caution-text: #f3f3fb;
 
-  --slope-body-color: #bbe4d5;
+  --slope-body-color: #bce2d9;
 
   --stars-visibility: hidden;
 

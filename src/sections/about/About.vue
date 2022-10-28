@@ -1,21 +1,17 @@
 <template>
-  <section id="about" title="About What The Hack 2021">
+  <section id="about" title="About What The Hack 2022">
     <SectionHeader>What The Hack?</SectionHeader>
     <div class="about-content">
       <div class="about-content-main">
         <Para>
-          What The Hack is SUTD's annual hackathon that aims to bring together people of various disciplines and provide
-          them with a platform to find innovative solutions to meaningful real-world problems.
+          SUTD's premier hackathon returns for its 4th iteration! <span>What The Hack</span> is a hardware and software
+          hackathon, where engineers, creators and designers collaborate to make innovative solutions to meaningful
+          real-world problems. <span>All in 2 Days.</span>
         </Para>
         <Para>
-          This year’s theme is
-          <span>Environment</span>, of which there will be four problem themes related to this overarching theme -
-          <span>Built Environment</span>, <span>Waste Management</span>, <span>Natural Environment</span> and
-          <span>Transportation</span>. Participants will have to tackle an issue from within one of these problem
-          domains using solutions that fall under at least one of these four technological categories -
-          <span>Software Platforms</span>, <span> Internet of Things </span>, <span>Artificial Intelligence</span> and
-          <span>Computational Fabrication</span>. Due to the current COVID-19 situation, What The Hack 2021 will be held
-          virtually!
+          This year’s theme is <span>A Brighter Future</span>, of which there will be three problem themes related to
+          this overarching theme - <span>Sustainable & Smart Cities</span>,
+          <span>Healthcare & Accessibility Technology</span> and <span>Social Activities & Games</span>.
         </Para>
       </div>
       <div class="about-content-aside">

@@ -27,7 +27,7 @@
           Prizes
         </button>
       </li>
-      <li>
+      <!-- <li>
         <button
           @click="
             buttonOnClickScroll('workshops');
@@ -36,7 +36,7 @@
         >
           Workshops
         </button>
-      </li>
+      </li> -->
       <li>
         <button
           @click="
@@ -247,7 +247,7 @@
             Prizes
           </button>
         </li>
-        <li>
+        <!-- <li>
           <button
             @click="
               buttonOnClickScroll('workshops');
@@ -256,7 +256,7 @@
           >
             Workshops
           </button>
-        </li>
+        </li> -->
         <li>
           <button
             @click="

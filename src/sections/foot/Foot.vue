@@ -3,7 +3,7 @@
     <footer>
       <div id="footer-top">
         <svg id="foot-logo" viewBox="0 0 150 38.65" xmlns="http://www.w3.org/2000/svg">
-          <g fill="#2d3887">
+          <g fill="#c7b1f9">
             <path
               d="m57.44 2.5a4.11 4.11 0 0 1 -.56 1.92l-7.07 13.67q-4.87 9.48-9.74 19a4.17 4.17 0 0 1 -.56.87 1.92 1.92 0 0 1 -2.71.23l-.18-.19a4.21 4.21 0 0 1 -.62-1l-15-29.28-2-3.83a2.84 2.84 0 0 1 -.2-2.33 2.09 2.09 0 0 1 1.53-1.44 4.6 4.6 0 0 1 .91-.12h18.08c2.83 0 5.68.1 8.48.1 2.2 0 4.39-.1 6.59-.1a4.64 4.64 0 0 1 1.29.14 2.33 2.33 0 0 1 1.76 2.36z"
             ></path>
@@ -26,13 +26,13 @@
         </svg>
         <div>
           Email:&nbsp;
-          <a href="mailto:whatthehack2021@sutdapac.onmicrosoft.com" style="color: var(--color-accent);"
-            >whatthehack2021@sutdapac.onmicrosoft.com</a
+          <a href="mailto:whatthehack2022@sutdapac.onmicrosoft.com" style="color: var(--color-accent);"
+            >whatthehack2022@sutdapac.onmicrosoft.com</a
           >
         </div>
       </div>
       <div id="footer-bottom">
-        <div>Copyright © 2021 What The Hack. All rights reserved.</div>
+        <div>Copyright © 2022 What The Hack. All rights reserved.</div>
         <ul>
           <li>
             <button
@@ -60,7 +60,7 @@
           </li>
           <li class="li-dividers" aria-hidden="true">|</li>
           <li>
-            <a href="https://github.com/wthdevelopers/website-2021" target="_blank" rel="noopener noreferrer"
+            <a href="https://github.com/wthdevelopers/website-2022" target="_blank" rel="noopener noreferrer"
               >Source Code</a
             >
           </li>

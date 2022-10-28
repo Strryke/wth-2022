@@ -12,7 +12,7 @@
                 <img
                   :class="tier.name === 'Platinum' ? 'img-platinum' : tier.name === 'Gold' ? 'img-gold' : 'img-others'"
                   style="display: var(--displayed-during-light)"
-                  :src="require(`../../../public/images/${sponsor.photoNormal}.png`)"
+                  :src="`https://www.kadencewp.com/wp-content/uploads/2020/10/alogo-2.png`"
                   :alt="`${sponsor.name} company logo`"
                 />
                 <img
@@ -26,13 +26,13 @@
                 <img
                   :class="tier.name === 'Platinum' ? 'img-platinum' : tier.name === 'Gold' ? 'img-gold' : 'img-others'"
                   style="display: var(--displayed-during-light)"
-                  :src="require(`../../../public/images/${sponsor.photoNormal}.png`)"
+                  :src="`https://www.kadencewp.com/wp-content/uploads/2020/10/alogo-2.png`"
                   :alt="`${sponsor.name} company logo`"
                 />
                 <img
                   :class="tier.name === 'Platinum' ? 'img-platinum' : tier.name === 'Gold' ? 'img-gold' : 'img-others'"
                   style="display: var(--displayed-during-dark)"
-                  :src="require(`../../../public/images/${sponsor.photoWhite}.png`)"
+                  :src="`https://www.kadencewp.com/wp-content/uploads/2020/10/alogo-2.png`"
                   :alt="`${sponsor.name} company logo`"
                 />
               </div>

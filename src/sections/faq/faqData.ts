@@ -98,24 +98,6 @@ export const faqData = [
     ],
   },
   {
-    title: 'Workshops',
-    content: [
-      {
-        id: 12,
-        title: 'When and where will the workshops be held?',
-        type: 'text',
-        content: `The workshops will be held on Zoom during the week leading to the hackathon (13th - 17th September).
-          After each workshop has concluded, we will upload the VODs on this website.`,
-      },
-      {
-        id: 13,
-        title: 'How do I sign up for the workshops?',
-        type: 'text',
-        content: `We will send the registration forms via email to those who indicated interest in attending the workshops.`,
-      },
-    ],
-  },
-  {
     title: 'Others',
     content: [
       {
@@ -153,7 +135,7 @@ export const faqData = [
         id: 19,
         title: 'My question can’t be found in the FAQs!',
         type: 'text',
-        content: `For any further queries or clarifications, feel free to drop us a message via the contact form below, or email us at whatthehack2021@sutdapac.onmicrosoft.com`,
+        content: `For any further queries or clarifications, feel free to drop us a message via the contact form below, or email us at whatthehack2022@sutdapac.onmicrosoft.com`,
       },
     ],
   },

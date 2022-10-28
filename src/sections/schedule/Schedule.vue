@@ -4,56 +4,49 @@
     <div class="schedule-content">
       <ul class="timetable">
         <li>
-          <SubHeader>Day One (Saturday)</SubHeader>
+          <SubHeader>Day One (Mon)</SubHeader>
         </li>
         <li>
           <Para>Registration</Para>
-          <Para>9:00AM</Para>
+          <Para>9:00</Para>
         </li>
         <li>
           <Para>Opening Briefing</Para>
-          <Para>9:30AM</Para>
+          <Para>10:00</Para>
         </li>
         <li>
-          <Para>Sponsor Talk by Indeed</Para>
-          <Para>9:45AM</Para>
+          <Para>Movement to Hacking Venues</Para>
+          <Para>11:00</Para>
         </li>
         <li>
-          <Para>Start Hacking!</Para>
-          <Para>10:30AM</Para>
+          <Para>Hacking Starts</Para>
+          <Para>11:30</Para>
         </li>
       </ul>
+
       <ul class="timetable">
         <li>
-          <SubHeader>Day Two (Sunday)</SubHeader>
-        </li>
-        <li>
-          <Para>DevPost Submission Check</Para>
-          <Para>12:00AM</Para>
-        </li>
-        <li>
-          <Para>Day 2 Check-In</Para>
-          <Para>9:00AM</Para>
-        </li>
-        <li>
-          <Para>Continue Hacking!</Para>
-          <Para>9:30AM</Para>
+          <SubHeader>Day Two (Tues)</SubHeader>
         </li>
         <li>
           <Para>Hacking Ends</Para>
-          <Para>2:00PM</Para>
+          <Para>11:30</Para>
         </li>
         <li>
-          <Para>Sponsor Talk by GovTech</Para>
-          <Para>2:00PM</Para>
+          <Para>Exhibition Prep @ Campus Center</Para>
+          <Para>11:30</Para>
         </li>
         <li>
-          <Para>Exhibition/Judging</Para>
-          <Para>3:00PM</Para>
+          <Para>Booth Setup</Para>
+          <Para>12:00</Para>
         </li>
         <li>
-          <Para>Prize Presentation Ceremony</Para>
-          <Para>5:30PM</Para>
+          <Para>Exhibition & Judging</Para>
+          <Para>13:00</Para>
+        </li>
+        <li>
+          <Para>Closing + Prize Presentation</Para>
+          <Para>15:00</Para>
         </li>
       </ul>
     </div>

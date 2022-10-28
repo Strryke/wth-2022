@@ -1,5 +1,6 @@
-# What The Hack 2021
-2021.sutdwth.com
+# What The Hack 2022
+
+2022.sutdwth.com
 
 ## Project setup
 
@@ -34,4 +35,4 @@ npm run lint
 ### Customize configuration
 
 See [Configuration Reference](https://cli.vuejs.org/config/).
-#WTH2021
+#WTH2022

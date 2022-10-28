@@ -6,13 +6,15 @@
         <CloudIcon />
       </div>
     </div>
-    <h1>What The Hack: Environment</h1>
-    <div class="hero-content-secondary">
-      <div>
-        <h2>18th - 19th September 2021</h2>
-        <h2>Singapore University of Technology and Design</h2>
+    <div class="center">
+      <h1>A Brighter Future</h1>
+      <div class="hero-content-secondary">
+        <div>
+          <h2>19th - 20th December 2022</h2>
+          <h2>Singapore University of Technology and Design</h2>
+        </div>
+        <a href="https://sutdwth21.devpost.com/project-gallery" class="register-button">View Submissions</a>
       </div>
-      <a href="https://sutdwth21.devpost.com/project-gallery" class="register-button">View Submissions</a>
     </div>
     <RegistrationGuideModal />
   </div>
@@ -43,11 +45,20 @@ export default {
   justify-content: center;
 }
 
+.center {
+  margin: 0 auto;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .hero-content > .icon-wrapper {
   width: calc(400px + 28vw);
-  margin-left: 12vw;
   margin-bottom: 20px;
   position: relative;
+  margin: 0 auto;
 }
 
 .cloud-icon-wrapper {
@@ -64,14 +75,13 @@ export default {
   font-size: calc(3vw + 14px);
   font-weight: 900;
   color: var(--color-title-text);
-  margin-left: 30vw;
   margin-bottom: 8px;
   transition: color 0.6s ease-out;
 }
 
 .hero-content-secondary {
   display: flex;
-  margin-left: 30vw;
+  flex-direction: column;
 }
 
 .hero-content h2 {
@@ -84,8 +94,8 @@ export default {
 
 .register-button {
   display: block;
+  border-radius: 10px;
   align-items: center;
-  margin-left: 20px;
   text-decoration: none;
   font-size: 24px;
   font-family: var(--font-secondary), sans-serif;
@@ -96,34 +106,13 @@ export default {
   height: fit-content;
   transition: background-color 0.6s ease-out, color 0.6s ease-out;
   line-height: 1;
+  margin: 0 auto;
+  margin-top: 30px;
 }
 
 .register-button.register-button-disabled {
   cursor: not-allowed;
   background-color: var(--color-gray);
-}
-
-.caution-button {
-  display: inline-flex;
-  align-items: center;
-  margin-left: 20px;
-  text-decoration: none;
-  font-size: 24px;
-  font-family: var(--font-secondary), sans-serif;
-  font-weight: 700;
-  background-color: var(--color-accent);
-  color: var(--color-caution-text);
-  padding: 32px 40px;
-  width: 265px;
-  height: 0;
-  transition: background-color 0.6s ease-out, color 0.6s ease-out;
-  line-height: 0px;
-}
-
-@media (max-width: 1180px) {
-  .caution-button {
-    padding: 32px 31px;
-  }
 }
 
 @media (--desktop-narrow) {
@@ -135,12 +124,6 @@ export default {
   .register-button {
     width: fit-content;
     margin-top: 30px;
-    margin-left: 110px;
-  }
-
-  .caution-button {
-    margin-top: 30px;
-    margin-left: 110px;
   }
 
   .cloud-icon-wrapper {
@@ -155,37 +138,18 @@ export default {
 
   .hero-content > .icon-wrapper {
     width: 80vw;
-    margin-left: 8vw;
-  }
-
-  .hero-content > h1 {
-    margin-left: 22vw;
-  }
-
-  .hero-content-secondary {
-    margin-left: 22vw;
   }
 
   .register-button {
     font-size: 22px;
     padding: 18px 36px;
   }
-
-  .caution-button {
-    font-size: 22px;
-    padding: 28px 35px;
-    width: 240px;
-  }
 }
 
 @media (--mobile-narrow) {
-  .hero-content > svg {
-  }
-
   .hero-content > h1 {
     margin-top: 30px;
     font-size: calc(3vw + 24px);
-    margin-left: 0;
     text-align: center;
     padding: 0 30px;
     line-height: 1;
@@ -193,7 +157,6 @@ export default {
 
   .hero-content-secondary {
     margin-top: 30px;
-    margin-left: 0;
     text-align: center;
     padding: 0 30px;
   }
@@ -205,14 +168,6 @@ export default {
   .register-button {
     font-size: 16px;
     padding: 14px 28px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .caution-button {
-    font-size: 16px;
-    padding: 22px 30px;
-    width: 185px;
     margin-left: auto;
     margin-right: auto;
   }
