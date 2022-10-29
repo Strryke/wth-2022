@@ -35,7 +35,7 @@ export default {
 <style scoped>
 .text {
   font-family: var(--font-primary);
-  font-size: clamp(1rem, 2vw, 2rem);
+  font-size: clamp(1.5rem, 2vw, 2rem);
   color: var(--color-regular-text);
   text-align: center;
 }

@@ -52,6 +52,7 @@ export default {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .hero-content > .icon-wrapper {
@@ -64,10 +65,8 @@ export default {
 .cloud-icon-wrapper {
   position: absolute;
   top: 0;
-  right: 0;
-  transform: translateX(80%);
-  width: 23vw;
-  max-width: 300px;
+  right: -100px;
+  width: 10vw;
 }
 
 .hero-content h1 {
@@ -157,7 +156,6 @@ export default {
 
   .hero-content-secondary {
     margin-top: 30px;
-    text-align: center;
     padding: 0 30px;
   }
 
