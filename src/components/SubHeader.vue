@@ -19,7 +19,7 @@ h4 {
   font-family: var(--font-secondary), sans-serif;
   color: var(--color-regular-text);
 
-  border-bottom: 10px solid var(--color-section-title-text);
+  border-bottom: 10px solid var(--color-highlight);
   display: inline-block;
   line-height: 0.4;
 }

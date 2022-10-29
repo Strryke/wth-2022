@@ -66,7 +66,7 @@ export default {
   position: absolute;
   top: 0;
   right: -100px;
-  width: 10vw;
+  width: 150px;
 }
 
 .hero-content h1 {
