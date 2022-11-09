@@ -135,7 +135,7 @@ export const faqData = [
         id: 19,
         title: 'My question can’t be found in the FAQs!',
         type: 'text',
-        content: `For any further queries or clarifications, feel free to drop us a message via the contact form below, or email us at whatthehack2022@sutdapac.onmicrosoft.com`,
+        content: `For any further queries or clarifications, feel free to drop us a message via the contact form below, or email us at sutdwth@gmail.com`,
       },
     ],
   },

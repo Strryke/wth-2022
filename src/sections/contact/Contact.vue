@@ -2,20 +2,11 @@
   <section id="contact" title="Contact Us">
     <div class="contact-body">
       <SectionHeader>Contact Us</SectionHeader>
-      <form
-        class="contact-content"
-        id="contact-form"
-        name="contact-form"
-        method="post"
-        data-netlify="true"
-        data-netlify-honeypot="bot-field"
-      >
-        <input type="hidden" name="form-name" value="contact-form" />
-        <input type="hidden" name="bot-field" />
+      <form class="contact-content" id="contact-form" name="contact-form" ref="form" @submit.prevent="sendEmail">
         <FormInput
           type="text"
           label="*Name"
-          name="contactee-name"
+          name="name"
           placeholder="Your cool name :)"
           :model="contacteeName"
           :onBlur="validateFilled"
@@ -23,7 +14,7 @@
         <FormInput
           type="text"
           label="*Email Address"
-          name="contactee-email"
+          name="email"
           placeholder="No spam, promise!"
           :model="contacteeEmail"
           :onBlur="
@@ -36,14 +27,15 @@
         />
         <Textbox
           label="*What would you like to talk to us about?"
-          name="contactee-message"
+          name="message"
           :model="contacteeMessage"
           :onBlur="validateFilled"
           placeholder="Anything is fine! Your questions, feedback, suggestions, etc."
         />
+        <button type="submit" class="form-button">Submit</button>
       </form>
       <div class="submission-container">
-        <FormButton
+        <!-- <FormButton
           id="contact-submission-confirmation-modal-button"
           linkAction="non-router"
           :onClick="{
@@ -51,13 +43,13 @@
             args: ['contact-submission-confirmation-modal', 'contact-submission-confirmation-modal-button'],
           }"
           >Submit</FormButton
-        >
+        > -->
         <FormError
           class="submission-error"
           :style="submissionMsg.type === 'positive' ? 'color: var(--color-accent);' : null"
           >{{ submissionMsg.msg }}</FormError
         >
-        <button type="submit" hidden />
+        <button type="submit" value="Send" />
       </div>
     </div>
     <svg viewBox="0 0 1440 320" xmlns="http://www.w3.org/2000/svg" style="transform: translateY(-7px);">
@@ -91,6 +83,7 @@ import ConfirmationModal from '@/components/ConfirmationModal.vue';
 import validateFilledMixin from '@/mixins/validateFilledMixin';
 import validateEmailMixin from '@/mixins/validateEmailMixin';
 import openModalMixin from '@/mixins/openModalMixin';
+import emailjs from '@emailjs/browser';
 
 export default {
   name: 'contact',
@@ -98,7 +91,7 @@ export default {
     SectionHeader,
     FormInput,
     Textbox,
-    FormButton,
+    // FormButton,
     FormError,
     ConfirmationModal,
   },
@@ -131,27 +124,40 @@ export default {
       this.submissionMsg = { type: 'negative', msg: validationConclusion };
       return validationConclusion;
     },
-    submitForm(id) {
-      let form = document.getElementById(id);
-      fetch(form.action, {
-        method: 'POST',
-        body: new URLSearchParams(new FormData(form)),
-      })
-        .then(() => {
-          this.contacteeName = { value: '', error: '' };
-          this.contacteeEmail = { value: '', error: '', success: false };
-          this.contacteeMessage = { value: '', error: '' };
-          this.submissionMsg = {
-            type: 'positive',
-            msg: 'Your message has been received and we will get back to you shortly. Cheers!',
-          };
-        })
-        .catch(() => {
-          this.submissionMsg = {
-            type: 'negative',
-            msg: "Sorry, but there seems to be a problem and we didn't receive your message. Please try resubmitting!",
-          };
-        });
+    // submitForm(id) {
+    //   let form = document.getElementById(id);
+    //   fetch(form.action, {
+    //     method: 'POST',
+    //     body: new URLSearchParams(new FormData(form)),
+    //   })
+    //     .then(() => {
+    //       this.contacteeName = { value: '', error: '' };
+    //       this.contacteeEmail = { value: '', error: '', success: false };
+    //       this.contacteeMessage = { value: '', error: '' };
+    //       this.submissionMsg = {
+    //         type: 'positive',
+    //         msg: 'Your message has been received and we will get back to you shortly. Cheers!',
+    //       };
+    //     })
+    //     .catch(() => {
+    //       this.submissionMsg = {
+    //         type: 'negative',
+    //         msg: "Sorry, but there seems to be a problem and we didn't receive your message. Please try resubmitting!",
+    //       };
+    //     });
+    // },
+    sendEmail() {
+      if (!this.validateAll()) {
+        emailjs.sendForm('service_q9p4p8c', 'sutdwth', this.$refs.form, 'EfE0WUzQ5bXAeSaDj').then(
+          (result) => {
+            alert('Your message has been received and we will get back to you shortly. Cheers!');
+            this.$refs.form.reset();
+          },
+          (error) => {
+            alert('Something went wrong, please try again or email us directly at sutdwth@gmail.com');
+          },
+        );
+      }
     },
   },
 };
@@ -211,6 +217,28 @@ h3 {
 
   .submission-container {
     margin: 100px 30px 0 30px;
+  }
+}
+
+.form-button {
+  cursor: pointer;
+  font-family: var(--font-primary), sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--slope-body-color);
+  padding: 4px 20px;
+  background-color: var(--color-regular-text);
+  border: none;
+}
+
+.form-button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+@media (--mobile-narrow) {
+  .form-button {
+    font-size: 20px;
   }
 }
 </style>

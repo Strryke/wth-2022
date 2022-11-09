@@ -20,8 +20,8 @@
           <div class="aside-refer">Pax / Group</div>
         </div>
         <div class="aside-block">
-          <div class="aside-number">24</div>
-          <div class="aside-refer">Hours</div>
+          <div class="aside-number">2</div>
+          <div class="aside-refer">Days</div>
         </div>
         <div class="aside-block">
           <div class="aside-number">Lots</div>

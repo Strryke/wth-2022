@@ -8,16 +8,16 @@
     </svg> -->
     <div class="container">
       <div class="usp">
+        <img class="image" src="./prize.png" alt="" />
+        <div class="text">$3000 Prize Pool</div>
+      </div>
+      <div class="usp">
         <img class="image" src="./free.png" alt="" />
         <div class="text">Completely Free</div>
       </div>
       <div class="usp">
         <img class="image" src="./welcome.png" alt="" />
         <div class="text">All Skill Levels Welcome</div>
-      </div>
-      <div class="usp">
-        <img class="image" src="./prize.png" alt="" />
-        <div class="text">$3000 Prize Pool</div>
       </div>
     </div>
   </section>
