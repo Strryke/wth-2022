@@ -4,29 +4,40 @@ export const faqData = [
     content: [
       {
         id: 1,
-        title: 'Is this a physical or online hackathon?',
+        title: 'What is a hackathon? Would I actually be hacking?',
         type: 'text',
-        content: `Due to the current restrictions, the hackathon will be held completely online. 
-          However, SUTD participants could use the allocated spaces in campus to do their hacking.`,
+        content: `A hackathon is an event where participants come up with creative solutions for pertinent problems in our society in a short amount of time. With such a short amount of time allocated to bring an idea to fruition, certain techniques are applied to produce something fast. We call this hacking.`,
       },
       {
         id: 2,
-        title: 'Which platform(s) will be used for this hackathon?',
+        title: 'What is the expected submission?',
         type: 'text',
-        content: `The main platform that we’ll be using is Slack. Briefings will be done on Zoom, and the exhibition will be done on Spatial.chat.`,
+        content: `Within the two-day period of What The Hack, you are not expected to have a fully polished solution. A functioning prototype is expected, as well as an idea of how the complete product would function. Hardware, software or a combination of both are all accepted.`,
       },
       {
         id: 3,
-        title: 'When will my hackpack be delivered?',
+        title: 'Is this a physical or online hackathon?',
         type: 'text',
         content:
-          'We will be delivering the hackpacks to the team leader’s address during the week before the hackathon, do keep a lookout!',
+          'WTH 2022 returns in-person on the SUTD campus! All participants are required to be on-site for the set duration of the hackathon. ',
       },
       {
         id: 4,
-        title: 'Will there be swags?',
+        title: 'Which platforms will be used for this hackathon?',
         type: 'text',
-        content: 'Swags will only be delivered to participants who made submissions and pitched their solutions.',
+        content:
+          'Announcements will be made on a Telegram channel. Keep a lookout for an email from us closer to the event for the link. Submissions will be uploaded to Devpost.',
+      },
+      {
+        id: 5,
+        title: 'Are we allowed to continue hacking after hacking spaces close on Day 1?',
+        content:
+          'Yes. Participants have to leave the hacking spaces at 10pm on day 1, but you can still continue hacking.',
+      },
+      {
+        id: 6,
+        title: 'Will there be swag?',
+        content: 'Of course! Swag will be distributed during the hackathon.',
       },
     ],
   },
@@ -34,35 +45,28 @@ export const faqData = [
     title: 'Sign Up Eligibility',
     content: [
       {
-        id: 5,
+        id: 7,
         title: 'Who is eligible to participate?',
         type: 'text',
-        content: `You need to be at least 13 years of age at the time of the event to be eligible to participate. 
-          If you are over 13 but under 18 years of age, you will be eligible to participate only if you have parental consent (please submit the signed consent forms). 
-          If you are 18 and older, you would need to submit a signed consent form. 
-          The respective forms will be emailed to you upon confirmation of your registration.`,
-      },
-      {
-        id: 6,
-        title: 'Can I participate as an individual?',
-        type: 'text',
-        content: `No. However, we will provide a Slack channel for you to mingle and form a team, 
-          or you could choose to be randomly grouped based on your skills and problem themes.
-          Take this chance to meet new people!`,
-      },
-      {
-        id: 7,
-        title: 'How would I know if my registration is confirmed?',
-        type: 'text',
-        content: `You will receive an email stating that your registration is confirmed 
-          along with a copy of consent form for your completion.`,
+        content: `All students aged 13 and above (as of 19th Dec 2022) registered at an educational institution in Singapore can participate. Students waiting for entry into university, including Full-Time National Servicemen (NSFs) are also eligible to participate. `,
       },
       {
         id: 8,
-        title: 'Do I need to have any background in Computer Science / Hacking?',
+        title: 'Do I need to sign up with a team?',
         type: 'text',
-        content: `You do not need a background in either, although knowing some basic coding will help a lot. 
-          Just come with an open mind to learn and try new things!`,
+        content: `It is recommended you form a team prior to signing up. However, you can sign up without a team and form teams at the start of the hackathon.`,
+      },
+      {
+        id: 9,
+        title: 'How would I know if my registration is confirmed?',
+        content:
+          'An email with more information will be sent to you after you submit the online signup form. If you do not receive the email within 3 days of signing up, do contact us. ',
+      },
+      {
+        id: 10,
+        title: 'Do I need to have any background in Computer Science / Hacking?',
+        content:
+          'You do not need a background in either, although knowing some basic coding will help a lot. Just come with an open mind to learn and try new things! ',
       },
     ],
   },
@@ -70,26 +74,13 @@ export const faqData = [
     title: 'Registration',
     content: [
       {
-        id: 9,
+        id: 11,
         title: 'When is the registration deadline?',
         type: 'text',
-        content: `We will close registration when we hit the maximum capacity allowable for the hackathon or 
-          by 3rd September 2359hrs, depending on whichever one is earlier.`,
+        content: `We will close registration when we hit the maximum capacity allowable for the hackathon or by 3rd December 2359hrs, depending on whichever one is earlier.`,
       },
       {
-        id: 10,
-        title: 'If I have opted to have my team formed for me, how will I meet my team?',
-        type: 'text',
-        content: `You will need to join the Slack workspace and will be invited to the #randomized channel. 
-          Everyone in the #randomized channel will then be grouped in a randomized manner by our in-house Slack bot. 
-          You will then be able to contact your potential group mates on the Slack workspace. 
-          Note that due to the possibility of varying number of participant signups, the bot might not assign you to any confirmed group, and as such, 
-          you might not be able to participate in the hackathon.
-          More information would be provided in the Slack workspace. 
-          If you are unsure, feel free to contact @jamestiotio in our Slack workspace.`,
-      },
-      {
-        id: 11,
+        id: 12,
         title: 'Is this hackathon free?',
         type: 'text',
         content: `Yes, this hackathon is completely free. Join us and have fun, 
