@@ -98,6 +98,37 @@ export const faqData = [
     ],
   },
   {
+    title: 'Resources',
+    content: [
+      {
+        id: 17,
+        title: 'What resources will I get when I join What the Hack?',
+        type: 'text',
+        content:
+          'All teams will be receiving a Hackpack each, as well as access to a Makerspace, which has various tools that help you to make your ideas into reality. We will also be announcing 1 more benefit from a sponsor soon!',
+      },
+      {
+        id: 18,
+        title: 'How do I access the Makerspace?',
+        type: 'text',
+        content:
+          'All users of the Makerspace must complete a self-directed online safety training prior to the event. Details will be in the signup confirmation email. Only participants who have completed the online training will be allowed access to the Makerspace.',
+      },
+      {
+        id: 19,
+        title: 'What is inside the Hackpack?',
+        type: 'text',
+        content: `Each hackpack contains an Arduino Uno, Breadboard, RFID module, 16x2 Character LCD, 4 digit LED 7-segment display, Joystick, 4x4 Keyboard, Relay, Stepper Motor, Infrared Remote and Receiver, Temperature Sensor, as well as other passive components. All of these components will also come with a case.`,
+      },
+      {
+        id: 20,
+        title: 'What equipment will be available in the Makerspace?',
+        type: 'text',
+        content: `In addition to the Hacking Spaces that you will be provided to work on your ideas, you will have access to a Makerspace, which is provided by SUTD’s fabrication Lab. Learn how to use a 3D printer and Laser Cutters, as well as woodworking equipment such as belt sanders, bandsaws, and drill presses. There will also be an electronics lab available, with access to solder and electronic components. Our student helpers will be glad to assist you if you are not familiar with the equipment.`,
+      },
+    ],
+  },
+  {
     title: 'Others',
     content: [
       {

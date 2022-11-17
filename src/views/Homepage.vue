@@ -5,6 +5,7 @@
     <Carousel />
     <About />
     <Prizes />
+    <Benefits />
     <!-- <Workshops /> -->
     <Schedule />
     <Sponsors />
@@ -21,6 +22,7 @@ import Carousel from '@/sections/carousel/Carousel.vue';
 import About from '@/sections/about/About.vue';
 import USP from '@/sections/about/USP.vue';
 import Prizes from '@/sections/prizes/Prizes.vue';
+import Benefits from '@/sections/benefits/Benefits.vue';
 import Schedule from '@/sections/schedule/Schedule.vue';
 import Sponsors from '@/sections/sponsors/Sponsors.vue';
 import Faq from '@/sections/faq/Faq.vue';
@@ -37,6 +39,7 @@ export default {
     Carousel,
     About,
     Prizes,
+    Benefits,
     Schedule,
     Sponsors,
     Faq,

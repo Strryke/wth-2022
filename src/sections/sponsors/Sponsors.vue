@@ -3,8 +3,8 @@
     <div class="thankees-body">
       <SectionHeader>Sponsors</SectionHeader>
       <ul class="thankees-content">
-        <!-- <Para style="text-align: center; margin-top: 50px;">Sponsors will be announced soon!</Para> -->
-        <li class="tier" v-for="tier in tiers" :key="tier.name">
+        <Para style="text-align: center; margin-top: 50px;">Sponsors will be announced soon!</Para>
+        <!-- <li class="tier" v-for="tier in tiers" :key="tier.name">
           <h3>{{ tier.name }}</h3>
           <ul class="tier-sponsors">
             <li v-for="sponsor in tier.sponsors" :key="sponsor.name">
@@ -38,7 +38,7 @@
               </div>
             </li>
           </ul>
-        </li>
+        </li> -->
       </ul>
     </div>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 215.4" style="transform: translateY(-7px)">
@@ -52,11 +52,13 @@
 
 <script>
 import SectionHeader from '@/components/SectionHeader.vue';
+import Para from '@/components/Para';
 
 export default {
   name: 'thankees',
   components: {
     SectionHeader,
+    Para,
   },
   data() {
     return {

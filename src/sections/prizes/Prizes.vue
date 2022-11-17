@@ -1,7 +1,7 @@
 <template>
   <section id="prizes" title="Prizes">
     <div class="prizes-body">
-      <SectionHeader>Prizes</SectionHeader>
+      <SectionHeader style="text-align: center; padding-left: 0">Prizes</SectionHeader>
       <div class="prizes-content">
         <Para style="text-align: center; margin: 50px 0 70px 0"></Para>
         <ul>
