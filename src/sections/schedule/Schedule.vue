@@ -8,19 +8,27 @@
         </li>
         <li>
           <Para>Registration</Para>
-          <Para>9:00</Para>
+          <Para class="end">10:00</Para>
         </li>
         <li>
-          <Para>Opening Briefing</Para>
-          <Para>10:00</Para>
+          <Para>Opening Briefing & Sponsor Talks</Para>
+          <Para class="end">10:30</Para>
         </li>
         <li>
-          <Para>Movement to Hacking Venues</Para>
-          <Para>11:00</Para>
+          <Para>Lunch & Movement to Hacking Spaces</Para>
+          <Para class="end">12:00</Para>
         </li>
         <li>
           <Para>Hacking Starts</Para>
-          <Para>11:30</Para>
+          <Para class="end">13:00</Para>
+        </li>
+        <li>
+          <Para>Dinner</Para>
+          <Para class="end">18:00</Para>
+        </li>
+        <li>
+          <Para>Hacking Spaces Closes</Para>
+          <Para class="end">22:00</Para>
         </li>
       </ul>
 
@@ -29,24 +37,28 @@
           <SubHeader>Day Two (Tues)</SubHeader>
         </li>
         <li>
+          <Para>Hacking Spaces Reopen</Para>
+          <Para class="end">08:30</Para>
+        </li>
+        <li>
+          <Para>Lunch</Para>
+          <Para class="end">12:00</Para>
+        </li>
+        <li>
           <Para>Hacking Ends</Para>
-          <Para>11:30</Para>
+          <Para class="end">15:00</Para>
         </li>
         <li>
-          <Para>Exhibition Prep @ Campus Center</Para>
-          <Para>11:30</Para>
+          <Para>Exhibition Setup</Para>
+          <Para class="end">15:00</Para>
         </li>
         <li>
-          <Para>Booth Setup</Para>
-          <Para>12:00</Para>
+          <Para>Exhibiton & Judging</Para>
+          <Para class="end">15:15</Para>
         </li>
         <li>
-          <Para>Exhibition & Judging</Para>
-          <Para>13:00</Para>
-        </li>
-        <li>
-          <Para>Closing + Prize Presentation</Para>
-          <Para>15:00</Para>
+          <Para>Prize Presentation</Para>
+          <Para class="end">18:15</Para>
         </li>
       </ul>
     </div>
@@ -304,6 +316,7 @@ export default {
   width: 45%;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .timetable > li:first-child {
@@ -413,5 +426,9 @@ export default {
   .schedule-content {
     padding: 0 30px;
   }
+}
+
+.end {
+  text-align: end;
 }
 </style>

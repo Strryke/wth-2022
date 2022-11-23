@@ -68,14 +68,9 @@
         </button>
       </li>
       <li :class="['bar-register-link', 'bar-register-link-disabled']">
-        <button
-          id="register-button-desktop"
-          class="register-button-disabled"
-          :disabled="true"
-          @click="openModal('registration-guide-modal', 'register-button-desktop')"
-        >
+        <a id="register-button-desktop" href="https://forms.office.com/r/yVaTNa7Jbc" target="_blank">
           Register
-        </button>
+        </a>
       </li>
       <li>
         <button @click="toggleTheme">
