@@ -31,11 +31,13 @@ export const faqData = [
       {
         id: 5,
         title: 'Are we allowed to continue hacking after hacking spaces close on Day 1?',
+        type: 'text',
         content:
           'Yes. Participants have to leave the hacking spaces at 10pm on day 1, but you can still continue hacking.',
       },
       {
         id: 6,
+        type: 'text',
         title: 'Will there be swag?',
         content: 'Of course! Swag will be distributed during the hackathon.',
       },
@@ -59,14 +61,22 @@ export const faqData = [
       {
         id: 9,
         title: 'How would I know if my registration is confirmed?',
+        type: 'text',
         content:
           'An email with more information will be sent to you after you submit the online signup form. If you do not receive the email within 3 days of signing up, do contact us. ',
       },
       {
         id: 10,
+        type: 'text',
         title: 'Do I need to have any background in Computer Science / Hacking?',
         content:
           'You do not need a background in either, although knowing some basic coding will help a lot. Just come with an open mind to learn and try new things! ',
+      },
+      {
+        id: 1.1,
+        title: 'Do all members of the team need to be from the same school?',
+        type: 'text',
+        content: 'No, teams can be made up of members from different institutions.',
       },
     ],
   },
