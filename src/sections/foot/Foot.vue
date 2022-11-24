@@ -33,14 +33,9 @@
         <div>Copyright © 2022 What The Hack. All rights reserved.</div>
         <ul>
           <li>
-            <button
-              id="register-button-footer"
-              class="register-button-disabled"
-              :disabled="true"
-              @click="openModal('registration-guide-modal', 'register-button-footer')"
-            >
+            <a id="register-button-footer" target="_blank" href="https://forms.office.com/r/yVaTNa7Jbc">
               Register
-            </button>
+            </a>
           </li>
           <li class="li-dividers" aria-hidden="true">|</li>
           <li>
@@ -48,13 +43,13 @@
           </li>
           <li class="li-dividers" aria-hidden="true">|</li>
           <li>
-            <button
+            <a
               id="footer-tnc-modal-button"
-              type="button"
-              @click="openModal('footer-tnc-modal', 'footer-tnc-modal-button')"
+              href="https://drive.google.com/file/d/1QEbZ0XfGFoUud78215pilAsm6RLEeO-A/view?usp=sharing"
+              target="_blank"
             >
               Terms and Conditions
-            </button>
+            </a>
           </li>
           <li class="li-dividers" aria-hidden="true">|</li>
           <li>
