@@ -8,7 +8,7 @@
         </li>
         <li>
           <Para>Registration</Para>
-          <Para class="end">10:00</Para>
+          <Para class="end">09:30</Para>
         </li>
         <li>
           <Para>Opening Briefing & Sponsor Talks</Para>

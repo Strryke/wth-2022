@@ -87,7 +87,7 @@ export const faqData = [
         id: 11,
         title: 'When is the registration deadline?',
         type: 'text',
-        content: `We will close registration when we hit the maximum capacity allowable for the hackathon or by 3rd December 2359hrs, depending on whichever one is earlier.`,
+        content: `We will close registration when we hit the maximum capacity allowable for the hackathon or by 4th December 2359hrs, depending on whichever one is earlier.`,
       },
       {
         id: 12,
