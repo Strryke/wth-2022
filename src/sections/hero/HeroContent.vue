@@ -13,7 +13,7 @@
           <h2>19th - 20th December 2022</h2>
           <h2>Singapore University of Technology and Design</h2>
         </div>
-        <a href="https://forms.office.com/r/yVaTNa7Jbc" target="_blank" class="register-button">Register Now!</a>
+        <a class="register-button disabled" aria-disabled="true">Signups Closed!</a>
       </div>
     </div>
     <RegistrationGuideModal />
@@ -109,7 +109,7 @@ export default {
   margin-top: 30px;
 }
 
-.register-button.register-button-disabled {
+.disabled {
   cursor: not-allowed;
   background-color: var(--color-gray);
 }

@@ -33,7 +33,7 @@
         <div>Copyright © 2022 What The Hack. All rights reserved.</div>
         <ul>
           <li>
-            <a id="register-button-footer" target="_blank" href="https://forms.office.com/r/yVaTNa7Jbc">
+            <a id="register-button-footer" class="register-button-disabled">
               Register
             </a>
           </li>
