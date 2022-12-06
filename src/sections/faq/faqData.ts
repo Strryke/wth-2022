@@ -113,7 +113,7 @@ export const faqData = [
         title: 'How do I access the Makerspace?',
         type: 'text',
         content:
-          'All users of the Makerspace must complete a self-directed online safety training prior to the event. Details will be in the signup confirmation email. Only participants who have completed the online training will be allowed access to the Makerspace.',
+          'Participants who wish to access the Makerspace will be required to sign an indemnity form at the Fab Lab before access is granted.',
       },
       {
         id: 19,
