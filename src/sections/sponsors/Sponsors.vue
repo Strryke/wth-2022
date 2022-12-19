@@ -3,8 +3,8 @@
     <div class="thankees-body">
       <SectionHeader>Sponsors</SectionHeader>
       <ul class="thankees-content">
-        <Para style="text-align: center; margin-top: 50px;">Sponsors will be announced soon!</Para>
-        <!-- <li class="tier" v-for="tier in tiers" :key="tier.name">
+        <!-- <Para style="text-align: center; margin-top: 50px;">Sponsors will be announced soon!</Para> -->
+        <li class="tier" v-for="tier in tiers" :key="tier.name">
           <h3>{{ tier.name }}</h3>
           <ul class="tier-sponsors">
             <li v-for="sponsor in tier.sponsors" :key="sponsor.name">
@@ -12,7 +12,7 @@
                 <img
                   :class="tier.name === 'Platinum' ? 'img-platinum' : tier.name === 'Gold' ? 'img-gold' : 'img-others'"
                   style="display: var(--displayed-during-light)"
-                  :src="`https://www.kadencewp.com/wp-content/uploads/2020/10/alogo-2.png`"
+                  :src="require(`../../../public/images/${sponsor.photoNormal}.png`)"
                   :alt="`${sponsor.name} company logo`"
                 />
                 <img
@@ -26,19 +26,19 @@
                 <img
                   :class="tier.name === 'Platinum' ? 'img-platinum' : tier.name === 'Gold' ? 'img-gold' : 'img-others'"
                   style="display: var(--displayed-during-light)"
-                  :src="`https://www.kadencewp.com/wp-content/uploads/2020/10/alogo-2.png`"
+                  :src="require(`../../../public/images/${sponsor.photoWhite}.png`)"
                   :alt="`${sponsor.name} company logo`"
                 />
                 <img
                   :class="tier.name === 'Platinum' ? 'img-platinum' : tier.name === 'Gold' ? 'img-gold' : 'img-others'"
                   style="display: var(--displayed-during-dark)"
-                  :src="`https://www.kadencewp.com/wp-content/uploads/2020/10/alogo-2.png`"
+                  :src="require(`../../../public/images/${sponsor.photoWhite}.png`)"
                   :alt="`${sponsor.name} company logo`"
                 />
               </div>
             </li>
           </ul>
-        </li> -->
+        </li>
       </ul>
     </div>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 215.4" style="transform: translateY(-7px)">
@@ -58,7 +58,6 @@ export default {
   name: 'thankees',
   components: {
     SectionHeader,
-    Para,
   },
   data() {
     return {
@@ -83,54 +82,38 @@ export default {
               photoNormal: 'govtech',
               photoWhite: 'govtech-white',
             },
-          ],
-        },
-        {
-          name: 'Fifth Row Partners',
-          sponsors: [
             {
-              name: 'Energy Club',
-              url: 'https://www.instagram.com/sutd_energyclub/',
-              photoNormal: 'energy',
-              photoWhite: 'energy-white',
-            },
-            {
-              name: 'MechD',
-              url: 'https://mechd.opensutd.org/',
-              photoNormal: 'MechD',
-              photoWhite: 'MechD-white',
-            },
-            {
-              name: 'SUTD IEEE',
-              url: 'https://ieee.opensutd.org/',
-              photoNormal: 'ieee',
-              photoWhite: 'ieee-white',
-            },
-            {
-              name: '3DC',
-              url: 'https://3dc.opensutd.org/',
-              photoNormal: '3dc',
-              photoWhite: '3dc-white',
+              name: 'AWS',
+              url: 'https://aws.amazon.com/',
+              photoNormal: 'aws',
+              photoWhite: 'aws-white',
             },
           ],
         },
         {
-          name: 'Partner Organizations',
+          name: 'Bronze',
           sponsors: [
             {
-              name: 'Bamboo Builders',
-              url: 'https://www.bamboobuilders.org',
-              photoNormal: 'bamboo-builders',
-              photoWhite: 'bamboo-builders-white',
+              name: 'Accenture',
+              url: 'https://www.accenture.com/sg-en',
+              photoNormal: 'accenture',
+              photoWhite: 'accenture-white',
             },
             {
-              name: 'ClimateScience',
-              url: 'https://climatescience.org',
-              photoNormal: 'climatescience',
-              photoWhite: 'climatescience-white',
+              name: 'IMDA',
+              url: 'https://www.imda.gov.sg/',
+              photoNormal: 'imda',
+              photoWhite: 'imda-white',
+            },
+            {
+              name: 'NCS',
+              url: 'https://www.ncs.co/en-sg/',
+              photoNormal: 'ncs',
+              photoWhite: 'ncs-white',
             },
           ],
         },
+
         // {
         //   name: "Swag Sponsors",
         //   sponsors: [
